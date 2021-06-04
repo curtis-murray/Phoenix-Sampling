@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l                                                  # -l needed to overcome CommandNotFonudError in slurm job
 #SBATCH -p batch            	                                # partition (this is the queue your job will be added to) 
 #SBATCH -N 2               	                                # number of nodes (no MPI, so we only use a single node)
 #SBATCH -n 2             	                                # number of cores
@@ -14,7 +14,7 @@
 module load Anaconda3/2020.07
 module load R
 
-conda activate gt
+conda activate /hpcfs/users/$USER/myconda/envs/gt
 
 mpirun -np 2 ./my_program.sh
 
