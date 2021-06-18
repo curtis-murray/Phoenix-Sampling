@@ -1,0 +1,421 @@
+Module message: Setting OPENBLAS_NUM_THREADS to 1. Done. 
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 107, in <module>
+    from . import cbook, rcsetup
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 28, in <module>
+    import numpy as np
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/numpy/__init__.py", line 148, in <module>
+    from . import lib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/numpy/lib/__init__.py", line 38, in <module>
+    from .arrayterator import Arrayterator
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+OSError: [Errno 12] Cannot allocate memory
+/apps/skl/software/R/4.0.3/lib64/R/bin/BATCH: line 60: 135639 Killed                  ${R_HOME}/bin/R -f ${in} ${opts} ${R_BATCH_OPTIONS} > ${out} 2>&1
+/apps/skl/software/R/4.0.3/lib64/R/bin/BATCH: line 60: 106157 Killed                  ${R_HOME}/bin/R -f ${in} ${opts} ${R_BATCH_OPTIONS} > ${out} 2>&1
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Bad address
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 921, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 174, in <module>
+    _check_versions()
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 168, in _check_versions
+    module = importlib.import_module(modname)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/dateutil/__init__.py", line 3, in <module>
+    from ._version import version as __version__
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 982, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 925, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1349, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1321, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1450, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1490, in _fill_cache
+OSError: [Errno 12] Cannot allocate memory: '/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/dateutil'
+    dict.update(rcParams, _rc_params_in_file(matplotlib_fname()))
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 814, in _rc_params_in_file
+    for line_no, line in enumerate(fd, 1):
+OSError: [Errno 12] Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/m./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Bad address
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Bad address
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 107, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 107, in <module>
+    from . import cbook, rcsetup
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 26, in <module>
+    import pylab as plt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pylab.py", line 1, in <module>
+    from . import cbook, rcsetup
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 32, in <module>
+    from cycler import Cycler, cycler as ccycler
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+    from matplotlib import animation, cbook
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/animation.py", line 30, in <module>
+    import uuid
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+    from matplotlib.pylab import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/pylab.py", line 18, in <module>
+    from matplotlib.dates import (
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/dates.py", line 157, in <module>
+OSError: [Errno 12] Cannot allocate memory
+    from dateutil.rrule import (rrule, MO, TU, WE, TH, FR, SA, SU, YEARLY,
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+OSError: [Errno 12] Cannot allocate memory
+OSError: [Errno 12] Cannot allocate memory
+    import pylab as plt
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+OSError: [Errno 12] Cannot allocate memory
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+    import pylab as plt
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Bad address
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+OSError: [Errno 12] Cannot allocate memory
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+    import pylab as plt
+    import pylab as plt
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 107, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 107, in <module>
+    from . import cbook, rcsetup
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 26, in <module>
+    from . import cbook, rcsetup
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 26, in <module>
+    from matplotlib import animation, cbook
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/animation.py", line 30, in <module>
+    from matplotlib import animation, cbook
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/animation.py", line 30, in <module>
+    import uuid
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import uuid
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+OSError: [Errno 12] Cannot allocate memory
+OSError: [Errno 12] Cannot allocate memory
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pylab.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    from matplotlib.pylab import *
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+    import pylab as plt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pylab.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+    import pylab as plt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pylab.py", line 1, in <module>
+    from matplotlib.pylab import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/pylab.py", line 18, in <module>
+    from matplotlib.pylab import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/pylab.py", line 18, in <module>
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+OSError: [Errno 12] Cannot allocate memory
+OSError: [Errno 12] Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+Traceback (most recent call last):
+    from matplotlib.dates import (
+    import pylab as plt
+    from matplotlib.dates import (
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/dates.py", line 157, in <module>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 921, in <module>
+    import pylab as plt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pylab.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+    from dateutil.rrule import (rrule, MO, TU, WE, TH, FR, SA, SU, YEARLY,
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import pylab as plt
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import matplotlib
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 107, in <module>
+    from matplotlib.pylab import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/pylab.py", line 18, in <module>
+    from matplotlib.dates import (
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/dates.py", line 157, in <module>
+    from . import cbook, rcsetup
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/rcsetup.py", line 26, in <module>
+    from matplotlib import animation, cbook
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/animation.py", line 30, in <module>
+    from dateutil.rrule import (rrule, MO, TU, WE, TH, FR, SA, SU, YEARLY,
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import uuid
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    dict.update(rcParams, _rc_params_in_file(matplotlib_fname()))
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/matplotlib/__init__.py", line 814, in _rc_params_in_file
+    for line_no, line in enumerate(fd, 1):
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 922, in get_code
+  File "<frozen importlib._bootstrap_external>", line 980, in get_data
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 1, in <module>
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Cannot allocate memory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Argument list too long
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 3, in <module>
+./my_program.sh: line 16: /hpcfs/users/a1670295/myconda/envs/gt/bin/python3.9: Bad address
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 135000 on node r24-gpu2 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+slurmstepd: error: Detected 31332 oom-kill event(s) in step 6533816.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+#
+#===========================================================================
+#HPC1 Job Utilisation Reporting
+===========================================================================
+Job Name            : script.sh
+Job ID              : 6533816
+User                : a1670295
+Account             : mathsci
+Cluster             : hpc1
+Partition           : v100cpu
+Nodes (List)        : 1,2 (r24-gpu[1-2])
+Cores               : 4
+GPUs                : 0
+State               : OUT_OF_MEMORY
+Submit              : 2021-06-10T22:58:34
+Start               : 2021-06-10T22:59:26
+End                 : 2021-06-10T23:07:54
+Walltime reserved   : 01:00:00
+Walltime elapsed (%): 00:08:28  (14.1% * reserved)
+CPU-time elapsed    : 0.52 core-hours
+% CPU used (Total)  :  1.04%    (0.01 core-hours)
+% User CPU (Compute):  0.36%    (0.00 core-hours)
+% System CPU (I/O)  :  0.69%    (0.00 core-hours)
+Mem reserved        : 4G/node
+% Mem used (Max)    : 107.17%    (4.29G/node) 
+Max Disk Write      : 1.36M     (,r24-gpu1)
+Max Disk Read       : 1.03G     (,r24-gpu1)
+===========================================================================
