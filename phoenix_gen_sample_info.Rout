@@ -53,7 +53,7 @@ Warning: It is strongly recommended to set envionment variable TZ to ‘Australi
 + )
 > 
 > # Testing by only having 2 small samples
-> sample_prop <- sample_prop[2:3]
+> sample_prop <- sample_prop[2:5]
 > 
 > tibble(sample_prop = sample_prop) %>% 
 + 	mutate(sample = (1:n())-1) %>% 
@@ -69,4 +69,4 @@ Call `lifecycle::last_warnings()` to see where this warning was generated.
 > 
 > proc.time()
    user  system elapsed 
-  2.541   4.103   6.980 
+  2.212   2.432   5.488 
