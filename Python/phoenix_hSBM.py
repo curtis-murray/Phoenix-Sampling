@@ -23,7 +23,13 @@ if not os.path.exists("data"):
 
 if not os.path.exists("data/Samples"):
     os.system("mkdir data/Samples")
-    
+
+if not os.path.exists("data/Tidy_Topics"):
+    os.system("mkdir data/Tidy_Topics")
+
+if not os.path.exists("data/Tree_Distance"):
+    os.system("mkdir data/Tree_Distance")
+
 def run_hSBM(texts, titles, sample_prop, itr):
     # Function to run the hSBM given the data, sample props, and sample ID (now called itr)
     model = sbmtm()
@@ -38,19 +44,19 @@ def run_hSBM(texts, titles, sample_prop, itr):
     ## fit the model
     #gt.seed_rng(32) ## seed for graph-tool's random number generator --> same results
     model.fit()
-        
+
     for level in range(1,model.L+1):
-            
+
         group_results = model.get_groups(l = level)
         p_w_tw = group_results['p_w_tw']
         pd.DataFrame.to_csv(pd.DataFrame(p_w_tw), "".join(["data/Samples/p_w_tw", str(level),"_", str(sample_prop) , "_", str(itr), ".csv"]))
-        
+
     pd.DataFrame.to_csv(pd.DataFrame(model.words), "".join(["data/Samples/words_all_", str(sample_prop) , "_", str(itr),  ".csv"]))
 
 data = pd.read_csv("data/clean_posts.csv")
 
 # Change the name - leaving old name in case anything breaks
-itr = sample    
+itr = sample
 
 # Sample documents from full data
 sample_ind = np.random.permutation(len(data))[range(round(sample_prop*len(data)))]
