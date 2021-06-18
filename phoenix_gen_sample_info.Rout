@@ -69,4 +69,4 @@ Call `lifecycle::last_warnings()` to see where this warning was generated.
 > 
 > proc.time()
    user  system elapsed 
-  2.339   2.895   6.542 
+  2.541   4.103   6.980 
