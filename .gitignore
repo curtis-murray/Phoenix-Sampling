@@ -1,4 +1,4 @@
-data/Samples
-data/Tidy_Topics
-data/Vocab
-.RData
+#data/Samples
+#data/Tidy_Topics
+#data/Vocab
+#.RData
