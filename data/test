@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in $(seq 0 5)
+do
+  for j in $(seq 1 5)
+  do
+    python3.9 test.py &
+  done
+  wait
+done
+
