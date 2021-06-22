@@ -1,5 +1,5 @@
 
-R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -20,13 +20,10 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > library(tidyverse)
-Warning: ‘timedatectl’ indicates the non-existent timezone name ‘n/a’
-Warning: Your system is mis-configured: ‘/etc/localtime’ is not a symlink
-Warning: It is strongly recommended to set envionment variable TZ to ‘Australia/Adelaide’ (or equivalent)
-── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
 ✔ ggplot2 3.3.3     ✔ purrr   0.3.4
-✔ tibble  3.1.2     ✔ dplyr   1.0.6
-✔ tidyr   1.1.3     ✔ stringr 1.4.0
+✔ tibble  3.0.6     ✔ dplyr   1.0.3
+✔ tidyr   1.1.2     ✔ stringr 1.4.0
 ✔ readr   1.4.0     ✔ forcats 0.5.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
@@ -138,51 +135,243 @@ cols(
 + 	unnest() %>% 
 + 	select(Sample,Sample_prop, Level, mat) %>% 
 + 	arrange(Sample, Level)
-Error: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-✖ cannot open the connection
-Backtrace:
-     █
-  1. ├─`%>%`(...)
-  2. ├─dplyr::arrange(., Sample, Level)
-  3. ├─dplyr::select(., Sample, Sample_prop, Level, mat)
-  4. ├─tidyr::unnest(.)
-  5. ├─dplyr::mutate(., Sample = ifelse(Full, 0, Sample))
-  6. ├─dplyr::mutate(., Full = ifelse((Full) & (tmp == 1), 1, 0))
-  7. ├─dplyr::ungroup(.)
-  8. ├─dplyr::mutate(., tmp = 1:n())
-  9. ├─dplyr::group_by(., Full)
- 10. ├─tidyr::nest(.)
- 11. ├─dplyr::group_by(., Sample, Full)
- 12. ├─dplyr::mutate(., Full = ifelse(Sample_prop == 1, 1, 0))
- 13. ├─dplyr::arrange(., Sample, Sample_prop, Level)
- 14. ├─dplyr::ungroup(.)
- 15. ├─dplyr::mutate(...)
- 16. ├─dplyr:::mutate.data.frame(...)
- 17. │ └─dplyr:::mutate_cols(.data, ..., caller_env = caller_env())
- 18. │   ├─base::withCallingHandlers(...)
- 19. │   └─mask$eval_all_mutate(quo)
- 20. ├─purrr::map(...)
- 21. │ └─.f(.x[[i]], ...)
- 22. │   ├─`%>%`(...)
- 23. │   └─readr::read_csv(.x)
- 24. │     └─readr:::read_delimited(...)
- 25. │       └─readr:::standardise_path(file)
- 26. │         └─readr:::detect_compression(path)
- 27. │           └─base::readBin(path, "raw", n = 6)
- 28. │             └─base::file(con, "rb")
- 29. ├─dplyr::filter(., p > 0)
- 30. ├─dplyr::mutate(., topic = as.numeric(topic) + 1)
- 31. ├─tidyr::gather(., "topic", "p", -word_ID)
- 32. ├─dplyr::mutate(., word_ID = word_ID + 1)
- 33. ├─dplyr::select(., word_ID = X1, everything())
- 34. └─base::.handleSimpleError(...)
- 35.   └─dplyr:::h(simpleError(msg, call))
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+There were 14 warnings (use warnings() to see them)
+> 
+> 
+> probs %>% 
++ 	select(Sample, Sample_prop) %>% 
++ 	group_by(Sample, Sample_prop) %>% 
++ 	summarise() %>% 
++ 	write_csv("data/Samples.info/samples_info.csv")
+`summarise()` has grouped output by 'Sample'. You can override using the `.groups` argument.
+> 
+> 
+> words_all <- tibble(words_all_all_path = words_all_all_path) %>% 
++ 	mutate(Sample_prop = str_extract(words_all_all_path, "(?<=_)\\d(.\\d{1,})*(?=_)"),
++ 				 Sample = str_extract(words_all_all_path, "(?<=_)\\d{1,}(?=.csv)")) %>% 
++ 	map_at(c("Sample_prop", "Sample"), as.double) %>% 
++ 	as_tibble() %>% 
++ 	mutate(
++ 		words = map(
++ 			words_all_all_path,
++ 			~read_csv(.x) %>% 
++ 				mutate(word_ID = X1 + 1, word = `0`) %>% 
++ 				select(word_ID, word)
++ 		)) %>% 
++ 	group_by(Sample) %>% 
++ 	select(-words_all_all_path) %>% 
++ 	ungroup() %>% 
++ 	arrange(Sample, Sample_prop) %>% 
++ 	mutate(Full = ifelse(Sample_prop == 1,1,0)) %>% 
++ 	group_by(Full) %>% 
++ 	mutate(tmp = 1:n()) %>% 
++ 	ungroup() %>% 
++ 	mutate(Full = ifelse((Full) & (tmp == 1),1,0)) %>% 
++ 	mutate(Sample = ifelse(Full, 0, Sample)) %>% 
++ 	select(Sample,Sample_prop, words) %>% 
++ 	arrange(Sample)
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
 Warning messages:
-1: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ 'raw = FALSE' but '/hpcfs/users/a1670295/Sampling/data/Samples' is not a regular file 
-2: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ cannot open file '/hpcfs/users/a1670295/Sampling/data/Samples': it is a directory 
-Execution halted
+1: Problem with `mutate()` input `words`.
+ℹ Missing column names filled in: 'X1' [1]
+ℹ Input `words` is `map(...)`. 
+2: Problem with `mutate()` input `words`.
+ℹ Missing column names filled in: 'X1' [1]
+ℹ Input `words` is `map(...)`. 
+3: Problem with `mutate()` input `words`.
+ℹ Missing column names filled in: 'X1' [1]
+ℹ Input `words` is `map(...)`. 
+4: Problem with `mutate()` input `words`.
+ℹ Missing column names filled in: 'X1' [1]
+ℹ Input `words` is `map(...)`. 
+> 
+> # Do we want ALL the vocab in the sampled topic structures? 
+> # Penalty could be added after easily. Lets try that.
+> 
+> tidy_topics_full <- probs %>% 
++ 	left_join(words_all, by = c("Sample", "Sample_prop")) %>% 	
++ 	dplyr::mutate(tidy_topics = 
++ 									map2(mat, words, ~.x %>%
++ 											 	full_join(.y, by = "word_ID") %>%
++ 											 	left_join(Vocab, by = "word")     # TODO: change to full if necessary
++ 									)
++ 	) %>% 
++ 	select(Sample, Sample_prop, Level, tidy_topics) %>% 
++ 	group_by(Sample, Sample_prop) %>% 
++ 	ungroup()
+> 
+> tidy_topics_full %>% 
++ 	unnest(tidy_topics) %>% 
++ 	group_by(Sample, word_ID_full) %>% 
++ 	arrange(Level) %>% 
++ 	summarise(topic = paste(topic, collapse = "-")) %>% 
++ 	write_csv("data/Tidy_Topics/tidy_topics_str.csv")
+`summarise()` has grouped output by 'Sample'. You can override using the `.groups` argument.
+> 
+> n_samp <- tidy_topics_full %>% pull(Sample) %>% max()
+> 
+> #paste("n_samp=",n_samp, sep = "") %>% 
+> #	write(file = "Scripts/n_samp")
+> 
+> proc.time()
+   user  system elapsed 
+  4.972   0.389   5.258 
