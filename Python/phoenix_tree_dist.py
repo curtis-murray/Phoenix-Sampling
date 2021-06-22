@@ -6,6 +6,7 @@ import cProfile
 import re
 import time
 import sys
+import glob
 
 if not os.path.exists("data/Tree_Distance"):
     os.system("mkdir data/Tree_Distance")
@@ -15,6 +16,10 @@ sample = int(sys.argv[1])
 
 #os.system("touch data/Tree_Distance/running_sample_"+str(sample))
 print("Tree distance on sample: " + str(sample))
+
+if len(glob.glob("data/Tree_Distance/sample_"+str(sample)+".csv")) > 0:
+    print("Already done " + str(sample))
+    quit()
  
 # Data loading
 # Tidy topics

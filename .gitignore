@@ -2,8 +2,4 @@
 #data/Tidy_Topics
 #data/Vocab
 #.RData
-<<<<<<< HEAD
-=======
-*.Rout
-*slum
->>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+.Rproj.user
