@@ -32,7 +32,7 @@ p <- weighted_d %>%
   theme(legend.position = "bottom")
 
 p
-p %>% ggsave(filename = "Figures/Plots/distance.pdf", 
+p %>% ggsave(filename = "Figures/distance.pdf", 
              device = "pdf", 
              height = 6, 
              width=8)
