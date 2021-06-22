@@ -1,7 +1,0 @@
-Module message: Setting OPENBLAS_NUM_THREADS to 1. Done. 
-Running hSBM on sample: 2 with sample_prop: 0.025
-Running hSBM on sample: 4 with sample_prop: 0.025
-Running hSBM on sample: 3 with sample_prop: 0.025
-Running hSBM on sample: 1 with sample_prop: 0.025
-Running hSBM on sample: 0 with sample_prop: 1.0
-slurmstepd: error: *** JOB 7585080 ON r24-gpu3 CANCELLED AT 2021-06-20T00:57:33 DUE TO TIME LIMIT ***
