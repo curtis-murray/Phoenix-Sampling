@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+=======
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -20,10 +24,20 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > library(tidyverse)
+<<<<<<< HEAD
 ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
 ✔ ggplot2 3.3.3     ✔ purrr   0.3.4
 ✔ tibble  3.0.6     ✔ dplyr   1.0.3
 ✔ tidyr   1.1.2     ✔ stringr 1.4.0
+=======
+Warning: ‘timedatectl’ indicates the non-existent timezone name ‘n/a’
+Warning: Your system is mis-configured: ‘/etc/localtime’ is not a symlink
+Warning: It is strongly recommended to set envionment variable TZ to ‘Australia/Adelaide’ (or equivalent)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.3     ✔ purrr   0.3.4
+✔ tibble  3.1.2     ✔ dplyr   1.0.6
+✔ tidyr   1.1.3     ✔ stringr 1.4.0
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 ✔ readr   1.4.0     ✔ forcats 0.5.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
@@ -50,7 +64,11 @@ Type 'q()' to quit R.
 + )
 > 
 > # Testing by only having 2 small samples
+<<<<<<< HEAD
 > sample_prop <- sample_prop[2:5]
+=======
+> #sample_prop <- sample_prop[2:3]
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 > 
 > tibble(sample_prop = sample_prop) %>% 
 + 	mutate(sample = (1:n())-1) %>% 
@@ -66,4 +84,8 @@ Call `lifecycle::last_warnings()` to see where this warning was generated.
 > 
 > proc.time()
    user  system elapsed 
+<<<<<<< HEAD
   1.314   0.295   1.530 
+=======
+  2.573   3.827   7.154 
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204

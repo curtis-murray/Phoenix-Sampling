@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+=======
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -20,10 +24,20 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > library(tidyverse)
+<<<<<<< HEAD
 ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
 ✔ ggplot2 3.3.3     ✔ purrr   0.3.4
 ✔ tibble  3.0.6     ✔ dplyr   1.0.3
 ✔ tidyr   1.1.2     ✔ stringr 1.4.0
+=======
+Warning: ‘timedatectl’ indicates the non-existent timezone name ‘n/a’
+Warning: Your system is mis-configured: ‘/etc/localtime’ is not a symlink
+Warning: It is strongly recommended to set envionment variable TZ to ‘Australia/Adelaide’ (or equivalent)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.3     ✔ purrr   0.3.4
+✔ tibble  3.1.2     ✔ dplyr   1.0.6
+✔ tidyr   1.1.3     ✔ stringr 1.4.0
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 ✔ readr   1.4.0     ✔ forcats 0.5.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
@@ -138,6 +152,547 @@ cols(
 
 ── Column specification ────────────────────────────────────────────────────────
 cols(
+<<<<<<< HEAD
+=======
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+<<<<<<< HEAD
+  `10` = col_double()
+=======
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+<<<<<<< HEAD
+  `1` = col_double()
+=======
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+<<<<<<< HEAD
+=======
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+<<<<<<< HEAD
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+=======
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+<<<<<<< HEAD
+  `1` = col_double()
+=======
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+<<<<<<< HEAD
+=======
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+<<<<<<< HEAD
+  `9` = col_double()
+=======
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+<<<<<<< HEAD
+  `1` = col_double()
+=======
+  `1` = col_double(),
+  `2` = col_double()
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+<<<<<<< HEAD
+=======
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+<<<<<<< HEAD
+  `9` = col_double()
+=======
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double()
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+<<<<<<< HEAD
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+There were 14 warnings (use warnings() to see them)
+> 
+=======
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
   X1 = col_double(),
   `0` = col_double(),
   `1` = col_double(),
@@ -158,6 +713,5537 @@ cols(
   X1 = col_double(),
   `0` = col_double(),
   `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double(),
+  `16` = col_double(),
+  `17` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double(),
+  `14` = col_double(),
+  `15` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double(),
+  `13` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
 )
 
 
@@ -210,7 +6296,66 @@ cols(
   `6` = col_double(),
   `7` = col_double(),
   `8` = col_double(),
-  `9` = col_double()
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double()
 )
 
 
@@ -241,7 +6386,145 @@ cols(
   `6` = col_double(),
   `7` = col_double(),
   `8` = col_double(),
-  `9` = col_double()
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double(),
+  `12` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double(),
+  `5` = col_double(),
+  `6` = col_double(),
+  `7` = col_double(),
+  `8` = col_double(),
+  `9` = col_double(),
+  `10` = col_double(),
+  `11` = col_double()
 )
 
 
@@ -267,8 +6550,41 @@ cols(
   `0` = col_double()
 )
 
-There were 14 warnings (use warnings() to see them)
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  .default = col_double()
+)
+ℹ Use `spec()` for the full column specifications.
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double(),
+  `1` = col_double(),
+  `2` = col_double(),
+  `3` = col_double(),
+  `4` = col_double()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_double()
+)
+
+There were 50 or more warnings (use warnings() to see the first 50)
 > 
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 > 
 > probs %>% 
 + 	select(Sample, Sample_prop) %>% 
@@ -330,6 +6646,7 @@ cols(
   `0` = col_character()
 )
 
+<<<<<<< HEAD
 Warning messages:
 1: Problem with `mutate()` input `words`.
 ℹ Missing column names filled in: 'X1' [1]
@@ -343,6 +6660,1213 @@ Warning messages:
 4: Problem with `mutate()` input `words`.
 ℹ Missing column names filled in: 'X1' [1]
 ℹ Input `words` is `map(...)`. 
+=======
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  X1 = col_double(),
+  `0` = col_character()
+)
+
+There were 50 or more warnings (use warnings() to see the first 50)
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 > 
 > # Do we want ALL the vocab in the sampled topic structures? 
 > # Penalty could be added after easily. Lets try that.
@@ -374,4 +7898,8 @@ Warning messages:
 > 
 > proc.time()
    user  system elapsed 
+<<<<<<< HEAD
   4.972   0.389   5.258 
+=======
+214.852  10.587 263.499 
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204

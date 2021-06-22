@@ -21,7 +21,11 @@ sample_prop <- c(
 )
 
 # Testing by only having 2 small samples
+<<<<<<< HEAD
 sample_prop <- sample_prop[2:5]
+=======
+#sample_prop <- sample_prop[2:3]
+>>>>>>> 5f48ec99b77a9ead0a4511862584a84d06c8c204
 
 tibble(sample_prop = sample_prop) %>% 
 	mutate(sample = (1:n())-1) %>% 
