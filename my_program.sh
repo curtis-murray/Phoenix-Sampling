@@ -33,7 +33,7 @@ wait
 
 for i in $(seq 0 $n_samp)
 do
-python3.9 Python/phoenix_hSBM.py $i &
+python3 Python/phoenix_hSBM.py $i &
 done
 
 wait
@@ -55,7 +55,7 @@ echo "Getting tree distances" >> log
 wait
 for i in $(seq 1 $n_samp)
 do
-python3.9 Python/phoenix_tree_dist.py $i &
+python3 Python/phoenix_tree_dist.py $i &
 done
 wait
 echo "Getting tree distances: Done" >> log
