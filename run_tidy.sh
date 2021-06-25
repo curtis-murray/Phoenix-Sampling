@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #SBATCH -p batch                                                # partition (this is the queue your job will be added to)			$
 #SBATCH -N 1                                                    # number of nodes
-#SBATCH -n 2
-#SBATCH --time=0-00:30:00                                       # walltime allocation, which has the format (D-HH:MM:SS), here set to 1 hour
+#SBATCH -n 16
+#SBATCH --time=0-05:00:00                                       # walltime allocation, which has the format (D-HH:MM:SS), here set to 1 hour
 #SBATCH --mem=32GB                                              # memory required per node (here set to 4 GB)
 
 # Notification configuration
@@ -13,11 +13,3 @@
 module load R
 
 R CMD BATCH R/phoenix_tidy.R
-
-
-
-
-
-
-
-
