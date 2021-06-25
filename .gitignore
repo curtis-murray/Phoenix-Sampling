@@ -1,17 +1,7 @@
-<<<<<<< HEAD
 data/Samples
 #data/Tidy_Topics
 #data/Vocab
 .RData
 .Rproj.user
 .Rproj
-=======
-#data/Samples
-#data/Tidy_Topics
-#data/Vocab
-#.RData
 .Rproj.user
-<<<<<<< HEAD
->>>>>>> ed71375665d20edaeb336791e65415055479a818
-=======
->>>>>>> ed71375665d20edaeb336791e65415055479a818
