@@ -1,0 +1,348 @@
+Module message: Setting OPENBLAS_NUM_THREADS to 1. Done. 
+rm: cannot remove ‘log’: No such file or directory
+rm: cannot remove ‘data/Samples/*’: No such file or directory
+rm: cannot remove ‘data/Samples/*’: No such file or directory
+rm: cannot remove ‘data/Samples.info/samples.csv’: No such file or directory
+rm: cannot remove ‘data/Vocab/Vocab.csv’: No such file or directory
+rm: cannot remove ‘data/Tidy_Topics/*’: No such file or directory
+rm: cannot remove ‘data/Tidy_Topics/*’: No such file or directory
+rm: cannot remove ‘data/Tree_Distance/*’: No such file or directory
+rm: cannot remove ‘data/Tree_Distance/*’: No such file or directory
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+    import graph_tool.all as gt
+    import graph_tool.all as gt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    import graph_tool.all as gt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    import graph_tool.all as gt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    from graph_tool.draw import *
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    import IPython.display
+    import IPython.display
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+    import IPython.display
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+    import IPython.display
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+    from IPython.core import release, crashhandler
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import debugger
+    from IPython.core import debugger
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+    from IPython.core import debugger
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+    from IPython.core import debugger
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+    import bdb
+    import bdb
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import bdb
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import bdb
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+EOFError: marshal data too short
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+EOFError: marshal data too short
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+EOFError: marshal data too short
+EOFError: marshal data too short
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+Traceback (most recent call last):
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_hSBM.py", line 4, in <module>
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+    import graph_tool.all as gt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    import graph_tool.all as gt
+    from sbmtm import sbmtm
+  File "/hpcfs/users/a1670295/Sampling/Python/sbmtm.py", line 8, in <module>
+    import graph_tool.all as gt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    import graph_tool.all as gt
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/all.py", line 34, in <module>
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from graph_tool.draw import *
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/__init__.py", line 876, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    from . cairo_draw import graph_draw, cairo_draw, \
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/graph_tool/draw/cairo_draw.py", line 64, in <module>
+    import IPython.display
+    import IPython.display
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+    import IPython.display
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+    import IPython.display
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/__init__.py", line 55, in <module>
+    from .core.application import Application
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from .core.application import Application
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/application.py", line 25, in <module>
+    from IPython.core import release, crashhandler
+    from IPython.core import release, crashhandler
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+    from IPython.core import release, crashhandler
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/crashhandler.py", line 27, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import ultratb
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/ultratb.py", line 112, in <module>
+    from IPython.core import debugger
+    from IPython.core import debugger
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+    from IPython.core import debugger
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+    from IPython.core import debugger
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/IPython/core/debugger.py", line 29, in <module>
+    import bdb
+    import bdb
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import bdb
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    import bdb
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 918, in get_code
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+  File "<frozen importlib._bootstrap_external>", line 587, in _compile_bytecode
+EOFError: marshal data too short
+EOFError: marshal data too short
+EOFError: marshal data too short
+EOFError: marshal data too short
+Tree distance on sample: 2
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 21, in <module>
+    df = pd.read_csv("data/Tidy_Topics/tidy_topics_str.csv")
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Tidy_Topics/tidy_topics_str.csv'
+Tree distance on sample: 3
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 21, in <module>
+    df = pd.read_csv("data/Tidy_Topics/tidy_topics_str.csv")
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Tidy_Topics/tidy_topics_str.csv'
+Tree distance on sample: 1
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 21, in <module>
+    df = pd.read_csv("data/Tidy_Topics/tidy_topics_str.csv")
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Tidy_Topics/tidy_topics_str.csv'
+Tree distance on sample: 3
+Tree distance on sample: 2
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 21, in <module>
+    df = pd.read_csv("data/Tidy_Topics/tidy_topics_str.csv")
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 610, in read_csv
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 21, in <module>
+    df = pd.read_csv("data/Tidy_Topics/tidy_topics_str.csv")
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/common.py", line 642, in get_handle
+    return _read(filepath_or_buffer, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Tidy_Topics/tidy_topics_str.csv'
+Tree distance on sample: 1
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1867, in __init__
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 21, in <module>
+    df = pd.read_csv("data/Tidy_Topics/tidy_topics_str.csv")
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._open_handles(src, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/common.py", line 642, in get_handle
+    self._engine = self._make_engine(self.engine)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Tidy_Topics/tidy_topics_str.csv'
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/hpcfs/users/a1670295/myconda/envs/gt/lib/python3.9/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Tidy_Topics/tidy_topics_str.csv'

@@ -17,12 +17,15 @@ sample_prop <- c(
 			seq(a+(b-a)/n1, b, length.out = n1), 
 			seq(b+(c-b)/n2, c, length.out = n2)
 		)
+<<<<<<< HEAD
 	),
 	rep(
 	  each = 100, 
 	  c(
 	    0.01, 0.05, 0.1, 0.2, 0.3, 0.5, 0.7, 1
 	  )
+=======
+>>>>>>> ed71375665d20edaeb336791e65415055479a818
 	)
 )
 
@@ -35,4 +38,7 @@ write_csv(path = "data/Samples.info/samples.csv")
 
 paste("n_samp=", length(sample_prop)-1, sep = "") %>% 
 	write(file = "n_samp")
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed71375665d20edaeb336791e65415055479a818
