@@ -39559,7 +39559,7 @@ There were 50 or more warnings (use warnings() to see the first 50)
 + 	group_by(Sample, Sample_prop) %>% 
 + 	ungroup()
 Error: Problem with `mutate()` column `tidy_topics`.
-ℹ `tidy_topics = map2(...)`.
+ℹ `tidy_topics = map1(...)`.
 ✖ `x` and `y` must share the same src, set `copy` = TRUE (may be slow).
 Backtrace:
      █
