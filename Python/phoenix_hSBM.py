@@ -54,11 +54,17 @@ def run_hSBM(texts, titles, sample_prop, itr):
         if len(topics) > 1:
             break
     print(model.L)
-    for level in range(1,model.L+1):
+    for level in range(0,model.L+1):
 
         group_results = model.get_groups(l = level)
         p_w_tw = group_results['p_w_tw']
         pd.DataFrame.to_csv(pd.DataFrame(p_w_tw), "".join(["data/Samples/p_w_tw", str(level),"_", str(sample_prop) , "_", str(itr), ".csv"]))
+        if itr == 0:
+            p_tw_td = group_results['p_tw_td']
+            p_td_d = group_results['p_td_d']
+            np.save("data/Samples/p_w_tw" + str(level) + "_" +  str(sample) + ".npy",p_w_tw)
+            np.save("data/Samples/p_tw_td" + str(level) + "_" +  str(sample) + ".npy",p_tw_td)
+            np.save("data/Samples/p_td_d" + str(level) + "_" +  str(sample) + ".npy",p_td_d)
 
     pd.DataFrame.to_csv(pd.DataFrame(model.words), "".join(["data/Samples/words_all_", str(sample_prop) , "_", str(itr),  ".csv"]))
 
