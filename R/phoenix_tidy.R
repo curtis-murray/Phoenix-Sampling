@@ -139,7 +139,8 @@ for(sample in samples){
     unnest(tidy_topics) %>% 
     group_by(Sample, word_ID_full) %>% 
     arrange(Level) %>% 
-    summarise(topic = paste(topic, collapse = "-")) %>% 
+    summarise(topic = paste(topic, collapse = "-"),
+              p = paste(freq,collapse="_")) %>% 
     write_csv(paste("data/Tidy_Topics/sample_",sample,".csv",sep = ""))
   
   tidy_topics_full %>% 
