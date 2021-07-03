@@ -18,7 +18,7 @@ sample_info = pd.read_csv("data/Samples.info/samples.csv")
 sample_prop = sample_info.query("sample == @sample")['sample_prop'].iloc[0]
 sample_prop = float(sample_prop) #This stops things from breaking? I don't understand why it's neccesary
 
-if len(glob.glob("data/Samples/words_all_*"+str(sample)+".csv")) > 0:
+if len(glob.glob("data/Samples/words_all_*_"+str(sample)+".csv")) > 0:
     print("Already done " + str(sample))
     quit()
 
