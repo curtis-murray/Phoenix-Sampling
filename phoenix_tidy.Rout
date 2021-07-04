@@ -1,5 +1,5 @@
 
-R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -17,16 +17,11 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-[Previously saved workspace restored]
-
 > library(tidyverse)
-Warning: ‘timedatectl’ indicates the non-existent timezone name ‘n/a’
-Warning: Your system is mis-configured: ‘/etc/localtime’ is not a symlink
-Warning: It is strongly recommended to set envionment variable TZ to ‘Australia/Adelaide’ (or equivalent)
-── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
 ✔ ggplot2 3.3.3     ✔ purrr   0.3.4
-✔ tibble  3.1.2     ✔ dplyr   1.0.6
-✔ tidyr   1.1.3     ✔ stringr 1.4.0
+✔ tibble  3.0.6     ✔ dplyr   1.0.3
+✔ tidyr   1.1.2     ✔ stringr 1.4.0
 ✔ readr   1.4.0     ✔ forcats 0.5.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
@@ -102,196 +97,5 @@ cols(
   Content = col_character()
 )
 
-> 
-> write_csv(Vocab, "data/Vocab/Vocab.csv")
-> 
-> # Samples info
-> tibble(p_w_tw_all_path = p_w_tw_all_path) %>% 
-+   mutate(Sample_prop = str_extract(p_w_tw_all_path, "(?<=_)\\d(.\\d{1,})*(?=_)"),
-+          Sample = str_extract(p_w_tw_all_path, "(?<=_)\\d{1,}(?=.csv)"),
-+          Level = str_extract(p_w_tw_all_path, "(?<=p_w_tw)\\d{1,}"),
-+   ) %>% 
-+   map_at(c("Sample_prop", "Sample"), as.double) %>% 
-+   as_tibble() %>% 
-+   group_by(Sample, Sample_prop) %>% 
-+   summarise() %>% 
-+   mutate(Sample_prop = round(Sample_prop, 5)) %>%
-+   write_csv("data/Samples.info/samples_info.csv")
-`summarise()` has grouped output by 'Sample'. You can override using the `.groups` argument.
-> # Read all p_w_tw files and get adjacency word-topic matrix, join words, construct full word-topic matrix
-> 
-> samples <-  words_all_all_path %>% 
-+   str_extract("(?<=_)\\d{1,}(?=.csv)")
-> samples <- 0
-> for(sample in samples){
-+   probs <- tibble(p_w_tw_all_path = p_w_tw_all_path) %>% 
-+     mutate(Sample_prop = str_extract(p_w_tw_all_path, "(?<=_)\\d(.\\d{1,})*(?=_)"),
-+            Sample = str_extract(p_w_tw_all_path, "(?<=_)\\d{1,}(?=.csv)"),
-+            Level = str_extract(p_w_tw_all_path, "(?<=p_w_tw)\\d{1,}"),
-+     ) %>% 
-+     filter(Sample == sample) %>%  # TODO Make this a variable
-+     map_at(c("Sample_prop", "Sample","Level"), as.double) %>% 
-+     as_tibble() %>% 
-+     arrange(-Sample) %>% 
-+     mutate(
-+       mat = map(
-+         p_w_tw_all_path, 
-+         ~read_csv(.x) %>%
-+           select(word_ID = X1, everything()) %>%
-+           mutate(word_ID = word_ID + 1) %>% 
-+           gather("topic", "p", -word_ID) %>% 
-+           mutate(topic = as.numeric(topic) + 1) %>% 
-+           filter(p > 0)
-+       )) %>% 
-+     ungroup() %>% 
-+     arrange(Sample, Sample_prop, Level) %>% 
-+     mutate(Full = ifelse(Sample_prop == 1,1,0)) %>% 
-+     group_by(Sample,Full) %>% 
-+     nest() %>% 
-+     group_by(Full) %>% 
-+     mutate(tmp = 1:n()) %>% 
-+     ungroup() %>% 
-+     mutate(Full = ifelse((Full) & (tmp == 1),1,0)) %>% 
-+     mutate(Sample = ifelse(Full, 0, Sample)) %>% 
-+     unnest() %>% 
-+     select(Sample,Sample_prop, Level, mat) %>% 
-+     arrange(Sample, Level)
-+   
-+   
-+   # probs %>% 
-+   #   select(Sample, Sample_prop) %>% 
-+   #   group_by(Sample, Sample_prop) %>% 
-+   #   summarise() %>% 
-+   #   write_csv("data/Samples.info/samples_info.csv")
-+   
-+   words_all <- tibble(words_all_all_path = words_all_all_path) %>% 
-+     mutate(Sample_prop = str_extract(words_all_all_path, "(?<=_)\\d(.\\d{1,})*(?=_)"),
-+            Sample = str_extract(words_all_all_path, "(?<=_)\\d{1,}(?=.csv)")) %>% 
-+     filter(Sample == sample) %>% 
-+     map_at(c("Sample_prop", "Sample"), as.double) %>% 
-+     as_tibble() %>% 
-+     mutate(
-+       words = map(
-+         words_all_all_path,
-+         ~read_csv(.x) %>% 
-+           mutate(word_ID = X1 + 1, word = `0`) %>% 
-+           select(word_ID, word)
-+       )) %>% 
-+     group_by(Sample) %>% 
-+     select(-words_all_all_path) %>% 
-+     ungroup() %>% 
-+     arrange(Sample, Sample_prop) %>% 
-+     mutate(Full = ifelse(Sample_prop == 1,1,0)) %>% 
-+     group_by(Full) %>% 
-+     mutate(tmp = 1:n()) %>% 
-+     ungroup() %>% 
-+     mutate(Full = ifelse((Full) & (tmp == 1),1,0)) %>% 
-+     mutate(Sample = ifelse(Full, 0, Sample)) %>% 
-+     select(Sample,Sample_prop, words) %>% 
-+     arrange(Sample)
-+   
-+   # Do we want ALL the vocab in the sampled topic structures? 
-+   # Penalty could be added after easily. Lets try that.
-+   
-+   tidy_topics_full <- probs %>% 
-+     left_join(words_all, by = c("Sample", "Sample_prop")) %>% 	
-+     dplyr::mutate(tidy_topics = 
-+                     map2(mat, words, ~.x %>%
-+                            full_join(.y, by = "word_ID") %>%
-+                            left_join(Vocab, by = "word")     # TODO: change to full if necessary
-+                     )
-+     ) %>% 
-+     select(Sample, Sample_prop, Level, tidy_topics) %>% 
-+     group_by(Sample, Sample_prop) %>% 
-+     ungroup()
-+   
-+   tidy_topics_full %>% 
-+     unnest(tidy_topics) %>% 
-+     group_by(Sample, word_ID_full) %>% 
-+     arrange(Level) %>% 
-+     summarise(topic = paste(topic, collapse = "-")) %>% 
-+     write_csv(paste("data/Tidy_Topics/sample_",sample,".csv",sep = ""))
-+   
-+   tidy_topics_full %>% 
-+     filter(Level == max(Level)) %>% 
-+     unnest(tidy_topics) %>% 
-+     select(word_ID_full, freq = p) %>% 
-+     arrange(word_ID_full) %>% 
-+     write_csv(paste("data/Vocab/sample_",sample,".csv",sep = ""))
-+ }
 
-── Column specification ────────────────────────────────────────────────────────
-cols(
-  .default = col_double()
-)
-ℹ Use `spec()` for the full column specifications.
-
-
-── Column specification ────────────────────────────────────────────────────────
-cols(
-  .default = col_double()
-)
-ℹ Use `spec()` for the full column specifications.
-
-
-── Column specification ────────────────────────────────────────────────────────
-cols(
-  .default = col_double()
-)
-ℹ Use `spec()` for the full column specifications.
-
-
-── Column specification ────────────────────────────────────────────────────────
-cols(
-  X1 = col_double(),
-  `0` = col_double(),
-  `1` = col_double(),
-  `2` = col_double(),
-  `3` = col_double()
-)
-
-
-── Column specification ────────────────────────────────────────────────────────
-cols(
-  X1 = col_double(),
-  `0` = col_double()
-)
-
-
-── Column specification ────────────────────────────────────────────────────────
-cols(
-  X1 = col_double(),
-  `0` = col_character()
-)
-
-`summarise()` has grouped output by 'Sample'. You can override using the `.groups` argument.
-Warning messages:
-1: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ Missing column names filled in: 'X1' [1] 
-2: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ Missing column names filled in: 'X1' [1] 
-3: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ Missing column names filled in: 'X1' [1] 
-4: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ Missing column names filled in: 'X1' [1] 
-5: Problem with `mutate()` column `mat`.
-ℹ `mat = map(...)`.
-ℹ Missing column names filled in: 'X1' [1] 
-6: `cols` is now required when using unnest().
-Please use `cols = c(data)` 
-7: Problem with `mutate()` column `words`.
-ℹ `words = map(...)`.
-ℹ Missing column names filled in: 'X1' [1] 
-> 
-> #n_samp <- tidy_topics_full %>% pull(Sample) %>% max()
-> 
-> #paste("n_samp=",n_samp, sep = "") %>% 
-> #	write(file = "Scripts/n_samp")
-> 
-> proc.time()
-   user  system elapsed 
- 14.519   2.851  20.373 
+Execution halted

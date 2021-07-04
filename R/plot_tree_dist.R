@@ -171,13 +171,13 @@ weighted_d %>% pivot_longer(cols = starts_with("distance"),
   facet_wrap(~type, scales = "free_y", ncol = 2,labeller = label_parsed) + 
   theme(legend.position = "none") + 
   coord_cartesian(ylim = c(0,NA))
-p
-p %>% ggsave(filename = "Figures/distance.pdf", 
-             device = "pdf",
-             height = 6, 
-             width=8)
-
-p %>% ggsave(filename = "../../Meeting Reports/Meeting_Book/files/Figures/distance.png", 
-             device = "png", 
-             height = 6, 
-             width=8)
+# p
+# p %>% ggsave(filename = "Figures/distance.pdf", 
+#              device = "pdf",
+#              height = 6, 
+#              width=8)
+# 
+# p %>% ggsave(filename = "../../Meeting Reports/Meeting_Book/files/Figures/distance.png", 
+#              device = "png", 
+#              height = 6, 
+#              width=8)
