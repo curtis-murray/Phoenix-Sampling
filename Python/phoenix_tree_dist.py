@@ -41,6 +41,7 @@ for key in diff_sample:
 # Preprocessing data
 # Filter to full data
 full_data = pd.read_csv("data/Tidy_Topics/sample_0.csv")[["word_ID_full","topic"]].set_index('word_ID_full').T.to_dict('list')
+full_data_p = pd.read_csv("data/Tidy_Topics/sample_0.csv")[["word_ID_full","p"]].set_index('word_ID_full').T.to_dict('list')
 # Get sample data
 sample_data = pd.read_csv("data/Tidy_Topics/sample_"+str(sample)+".csv")[["word_ID_full","topic"]].set_index('word_ID_full').T.to_dict('list')
 
@@ -83,6 +84,28 @@ def weighted_diff_path_length(i,j, full_data, sample_data, max_depth_full, max_d
     return d
 
 def path_length(i,j,data, max_depth):
+    # Funciton to compute path lengths between distinct words
+    topic_i = data.get(i)
+    topic_j = data.get(j)
+    # If either or both words are not part of the data return the max path length (2*depth)
+    if (topic_i is None) | (topic_j is None):
+        return max_depth*2
+    # If the words are the same then the path length is 0
+    # Never true as only take upper triangle
+    if i == j:
+        return 0
+    topic_i = topic_i[0].split("-")
+    topic_j = topic_j[0].split("-")
+    # import string and look for substrings and stuff
+    # Loop through hierarchy, starting at deepest level
+    # If words are in same topic return distance (starting at 2)
+    # Othewise move up hierarcy and add 2 to path length
+    for depth in range(max_depth):
+        if topic_i[depth] == topic_j[depth]:
+            return (depth+1)*2
+
+
+def joint_prob_given_LCA(i,j,data, max_depth):
     # Funciton to compute path lengths between distinct words
     topic_i = data.get(i)
     topic_j = data.get(j)

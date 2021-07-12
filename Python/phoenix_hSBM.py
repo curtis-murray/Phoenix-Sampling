@@ -18,7 +18,7 @@ sample_info = pd.read_csv("data/Samples.info/samples.csv")
 sample_prop = sample_info.query("sample == @sample")['sample_prop'].iloc[0]
 sample_prop = float(sample_prop) #This stops things from breaking? I don't understand why it's neccesary
 
-if len(glob.glob("data/Samples/words_all_*_"+str(sample)+".csv")) > 0:
+if len(glob.glob("data/Samples/words_all_*"+str(sample)+".csv")) > 0:
     print("Already done " + str(sample))
     quit()
 
@@ -55,7 +55,6 @@ def run_hSBM(texts, titles, sample_prop, itr):
             break
     print(model.L)
     for level in range(0,model.L+1):
-
         group_results = model.get_groups(l = level)
         p_w_tw = group_results['p_w_tw']
         pd.DataFrame.to_csv(pd.DataFrame(p_w_tw), "".join(["data/Samples/p_w_tw", str(level),"_", str(sample_prop) , "_", str(itr), ".csv"]))
