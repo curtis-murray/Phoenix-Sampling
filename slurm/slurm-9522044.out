@@ -1,0 +1,11 @@
+slurmstepd: error: TMPDIR [/tmp/lls_9522044] is not writeable
+slurmstepd: error: Setting TMPDIR to /tmp
+/usr/bin/id: cannot find name for user ID 1670295
+/usr/bin/id: cannot find name for user ID 1670295
+whoami: cannot find name for user ID 1670295
+Tree distance on sample: 880
+Distance of [0, 0.0, 0.0, 83.85002849978919]
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 157, in <module>
+    "distance_joint_prob_given_LCA": [d[4]]
+IndexError: list index out of range

@@ -1,0 +1,6 @@
+Tree distance on sample: 32
+Distance of [906485620, 1.998522911971139, 22.814989618853826, 74.05789739099592]
+Traceback (most recent call last):
+  File "/hpcfs/users/a1670295/Sampling/Python/phoenix_tree_dist.py", line 157, in <module>
+    "distance_joint_prob_given_LCA": [d[4]]
+IndexError: list index out of range

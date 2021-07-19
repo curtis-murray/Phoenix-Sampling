@@ -48,7 +48,7 @@ full_data = pd.read_csv("data/Tidy_Topics/sample_0.csv")[["word_ID_full","topic"
 sample_data = pd.read_csv("data/Tidy_Topics/sample_"+str(sample)+".csv")[["word_ID_full","topic","p"]].set_index('word_ID_full').T.to_dict('list')
 
 def total_dist(full_data,  sample_data):
-    total_d = [0,0,0,0]
+    total_d = [0,0,0,0,0]
     max_depth_full = len(list(full_data.items())[1][1][0].split("-"))
     max_depth_sample = len(list(sample_data.items())[1][1][0].split("-"))
     # Nested through upper triangle of adjacency matrix computing weighted
@@ -57,7 +57,7 @@ def total_dist(full_data,  sample_data):
         for j in range(i+1,n_words+1):
             #print(str(i) + " " + str(j))
             part_d = weighted_diff_path_length(i,j, full_data, sample_data, max_depth_full, max_depth_sample)
-            total_d = [total_d[x] + part_d[x] for x in range(0,4)]
+            total_d = [total_d[x] + part_d[x] for x in range(len(total_d))]
     return total_d
 
 def weighted_diff_path_length(i,j, full_data,  sample_data,  max_depth_full, max_depth_sample):
@@ -149,7 +149,6 @@ d = total_dist(full_data, sample_data)
 print("Distance of " + str(d))
 
 pd.DataFrame({"sample": [sample],
-"distance_unweighted": [d[0]],
 "distance_unweighted": [d[0]],
 "distance_all_subs_weighted": [d[1]],
 "distance_both_subs_weighted": [d[2]],
