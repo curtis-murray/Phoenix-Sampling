@@ -139,6 +139,7 @@ def joint_prob_given_LCA(i,j,data, max_depth):
     for depth in range(max_depth):
         if topic_i_id[depth] == topic_j_id[depth]:
             LCA = depth+1
+            break
     log_p = 0
     for depth in range(LCA):
         log_p = log_p + math.log(float(topic_i_p[depth])) + math.log(float(topic_j_p[depth]))
