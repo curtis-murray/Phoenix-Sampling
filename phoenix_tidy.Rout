@@ -1,5 +1,5 @@
 
-R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -17,11 +17,16 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+[Previously saved workspace restored]
+
 > library(tidyverse)
-── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+Warning: ‘timedatectl’ indicates the non-existent timezone name ‘n/a’
+Warning: Your system is mis-configured: ‘/etc/localtime’ is not a symlink
+Warning: It is strongly recommended to set envionment variable TZ to ‘Australia/Adelaide’ (or equivalent)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
 ✔ ggplot2 3.3.3     ✔ purrr   0.3.4
-✔ tibble  3.0.6     ✔ dplyr   1.0.3
-✔ tidyr   1.1.2     ✔ stringr 1.4.0
+✔ tibble  3.1.2     ✔ dplyr   1.0.6
+✔ tidyr   1.1.3     ✔ stringr 1.4.0
 ✔ readr   1.4.0     ✔ forcats 0.5.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
@@ -205,7 +210,7 @@ cols(
 +     group_by(Sample, word_ID_full) %>% 
 +     arrange(Level) %>% 
 +     summarise(topic = paste(topic, collapse = "-"),
-+               p = paste(freq,collapse="_")) %>% 
++               p = paste(p,collapse="_")) %>% 
 +     write_csv(paste("data/Tidy_Topics/sample_",sample,".csv",sep = ""))
 +   
 +   tidy_topics_full %>% 
@@ -214,6 +219,10 @@ cols(
 +     select(word_ID_full, freq = p) %>% 
 +     arrange(word_ID_full) %>% 
 +     write_csv(paste("data/Vocab/sample_",sample,".csv",sep = ""))
++   
++   rm(probs)
++   rm(tidy_topics_full)
++   rm(words_all)
 + }
 
 ── Column specification ────────────────────────────────────────────────────────
@@ -115113,4 +115122,4 @@ There were 50 or more warnings (use warnings() to see the first 50)
 > 
 > proc.time()
      user    system   elapsed 
-10419.931   287.215 11599.811 
+10010.142   276.755 11190.053 
