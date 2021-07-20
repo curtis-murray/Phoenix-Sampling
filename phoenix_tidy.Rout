@@ -97,10 +97,6 @@ cols(
   Content = col_character()
 )
 
-<<<<<<< HEAD
-
-Execution halted
-=======
 > 
 > write_csv(Vocab, "data/Vocab/Vocab.csv")
 > 
@@ -115118,4 +115114,3 @@ There were 50 or more warnings (use warnings() to see the first 50)
 > proc.time()
      user    system   elapsed 
 10419.931   287.215 11599.811 
->>>>>>> 4795ea5644d3c8a1bf73e14929bd9dc880b71648
