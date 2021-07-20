@@ -145,6 +145,33 @@ def joint_prob_given_LCA(i,j,data, max_depth):
         log_p = log_p + math.log(float(topic_i_p[depth])) + math.log(float(topic_j_p[depth]))
     return {"depth": (LCA)*2,"log_p": log_p}
 
+def display_results(i,j):
+    full_topic_i = full_data.get(i)
+    full_topic_j = full_data.get(j)
+
+    samp_topic_i = sample_data.get(i)
+    samp_topic_j = sample_data.get(j)
+
+    max_depth_full = len(list(full_data.items())[1][1][0].split("-"))
+    max_depth_sample = len(list(sample_data.items())[1][1][0].split("-"))
+
+    full_joint = joint_prob_given_LCA(i,j,full_data, max_depth_full)
+    samp_joint = joint_prob_given_LCA(i,j,sample_data,max_depth_sample)
+
+    d = weighted_diff_path_length(i,j, full_data,  sample_data,  max_depth_full, max_depth_sample)
+
+    print(
+        "full_topic_i:\n" + str(full_topic_i) + "\n\n" +
+        "full_topic_j:\n" + str(full_topic_j) + "\n\n" +
+        "full_info:\n" + str(full_joint) + "\n\n" +
+        "samp_topic_i:\n" + str(samp_topic_i) + "\n\n" +
+        "samp_topic_j:\n" + str(samp_topic_j) + "\n\n" +
+        "samp__info:\n" + str(samp_joint) + "\n\n" +
+        "d:\n" + str(d)
+    )
+
+
+
 d = total_dist(full_data, sample_data)
 
 print("Distance of " + str(d))

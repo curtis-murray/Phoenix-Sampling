@@ -140,7 +140,7 @@ for(sample in samples){
     group_by(Sample, word_ID_full) %>% 
     arrange(Level) %>% 
     summarise(topic = paste(topic, collapse = "-"),
-              p = paste(freq,collapse="_")) %>% 
+              p = paste(p,collapse="_")) %>% 
     write_csv(paste("data/Tidy_Topics/sample_",sample,".csv",sep = ""))
   
   tidy_topics_full %>% 
@@ -149,6 +149,10 @@ for(sample in samples){
     select(word_ID_full, freq = p) %>% 
     arrange(word_ID_full) %>% 
     write_csv(paste("data/Vocab/sample_",sample,".csv",sep = ""))
+  
+  rm(probs)
+  rm(tidy_topics_full)
+  rm(words_all)
 }
 
 #n_samp <- tidy_topics_full %>% pull(Sample) %>% max()
