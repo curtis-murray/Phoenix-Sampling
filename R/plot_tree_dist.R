@@ -2,6 +2,7 @@ library(tidyverse)
 library(tidytext)
 library(latex2exp)
 library(ggthemes)
+library(scales)
 
 devtools::source_gist("2a1bb0133ff568cbe28d", 
                       filename = "geom_flat_violin.R")
@@ -21,7 +22,8 @@ weighted_d <- list.files("data/Tree_Distance", full.names = TRUE) %>%
                                       "distance_unweighted", 
                                       "distance_corpora_weighted", 
                                       "distance_both_ave_weighted",
-                                      "distance_full_weighted"))
+                                      "distance_full_weighted",
+                                      "distance_joint_prob"))
   )) %>% 
   unnest(data) %>% 
   left_join(read_csv("data/Samples.info/samples_info.csv"), by = "Sample") %>% 
@@ -32,7 +34,8 @@ distances = c(
   "distance_unweighted", 
   "distance_corpora_weighted", 
   "distance_both_ave_weighted",
-  "distance_full_weighted"
+  "distance_full_weighted",
+  "distance_joint_prob"
 )
 
 #p <- 
@@ -93,13 +96,13 @@ p <- weighted_d %>%
   left_join(summary) %>% 
   ggplot(aes(x=Sample_prop, y=distance, group = as.factor(Sample_prop))) +
   #geom_ribbon(aes(x = Sample_prop, ymin = lwr, ymax = upr, group = NA), color = "#E3D8F1", alpha = 0.2, position = "identity")+
-  geom_flat_violin(scale = "count",
-                   color = "#1B3036",
-                   fill = "#336170",
-                   width =0.15,
-                   #fill = 1,
-                   alpha = 0.2,
-                   trim = FALSE) + 
+  # geom_flat_violin(scale = "count",
+  #                  color = "#1B3036",
+  #                  fill = "#336170",
+  #                  width =0.15,
+  #                  #fill = 1,
+  #                  alpha = 0.2,
+  #                  trim = FALSE) + 
   stat_summary(fun.data = mean_sdl,
                color = "#6E5C70",
                #shape = "point",
@@ -107,7 +110,7 @@ p <- weighted_d %>%
                fun.args = list(mult = 1),
                geom = "pointrange",
                #geom = "point",
-               position = position_nudge(0.01)) +
+               position = position_nudge(0.00)) +
   # geom_dotplot(binaxis = "y", 
   #              dotsize = 0.1, 
   #              stackdir = "down", 
@@ -115,11 +118,13 @@ p <- weighted_d %>%
   #              density = 1,
   #              #binwidth = 0.02, 
   #              position = position_nudge(-0.0)) + 
-  geom_jitter(aes(x = Sample_prop-0.01, y = distance), alpha = 0.8,width = 0.005, size = 0.4,color = "#548C85")+
+  geom_jitter(aes(x = Sample_prop-0.00, y = distance), alpha = 0.8,width = 0.005, size = 0.4,color = "#548C85")+
   #facet_wrap(~type, scales = "free_y", ncol = 2,labeller = label_parsed) + 
   theme_minimal() + 
   labs(alpha = "test") + 
-  coord_cartesian(ylim = c(0,NA), xlim = c(0,1)) + 
+  scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+                labels = trans_format("log10", math_format(10^.x))) +  
+  #coord_cartesian(ylim = c(0,NA), xlim = c(0,1)) + 
   labs(x = "Proportion of documents sampled from corpus",y= "Topic structure distance")
 
   p %>% ggsave(filename = paste("Figures/distance_violin_",dist,".pdf",sep = ""), 
